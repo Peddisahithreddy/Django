@@ -1,0 +1,50 @@
+
+/* Styling for the confirmation container */
+.confirmation-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 100px auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .add {
+    /* display: inline-block; */
+    /* padding: 10px 20px; */
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff8001;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+  .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+    }
+  
+    .button.yes {
+      background-color: #ff8001;
+    }
+    .button.no {
+      background-color: #ede9e9;
+      color:black
+    }
+  
+  
