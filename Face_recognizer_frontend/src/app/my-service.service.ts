@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class MyServiceService {
 
-  private Url = '';
+  private Url = 'http://127.0.0.1:5000/login';
 
   constructor(private http: HttpClient) { }
 

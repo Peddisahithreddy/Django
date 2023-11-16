@@ -7,6 +7,7 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 from django.db.models.deletion import CASCADE
 from django.utils import timezone
+from sql.models import Admin
 
 class Employee(models.Model):
     Emp_id = models.IntegerField(primary_key=True)
